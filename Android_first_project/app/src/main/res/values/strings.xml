@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="edit_name">Imie</string>
+    <string name="edit_last_name">Nazwisko</string>
+    <string name="button_save">Zapisz</string>
+    <string name="txtView_wyswietl">Podaj dane</string>
+</resources>
