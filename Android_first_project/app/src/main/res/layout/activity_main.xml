@@ -40,19 +40,18 @@
         android:layout_width="133dp"
         android:layout_height="49dp"
         android:text="@string/button_save"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/editTxtLastName"
         app:layout_constraintStart_toStartOf="@+id/editTxtLastName"
-        app:layout_constraintTop_toBottomOf="@+id/editTxtLastName"
-        app:layout_constraintVertical_bias="0.050000012" />
+        app:layout_constraintTop_toBottomOf="@+id/editTxtLastName" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/users_recycler_view"
-        android:layout_width="329dp"
-        android:layout_height="259dp"
+        android:layout_width="321dp"
+        android:layout_height="319dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnSave" />
+        app:layout_constraintTop_toBottomOf="@+id/btnSave"
+        app:layout_constraintVertical_bias="0.90999997" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
